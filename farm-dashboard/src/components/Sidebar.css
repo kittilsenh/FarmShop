@@ -1,0 +1,24 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    background-color: #f8f9fa; /* Lighter background */
+    border-right: 1px solid #dee2e6;
+    padding-top: 20px;
+  }
+  
+  .sidebar-item {
+    padding: 10px 20px; /* Add padding for better spacing */
+    color: #333;
+    border: none;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #e2e6ea;
+    color: #000;
+  }
+  
+  .active-link {
+    background-color: #007bff; /* Active link background color */
+    color: #fff; /* Active link text color */
+    font-weight: bold;
+  }
+  
